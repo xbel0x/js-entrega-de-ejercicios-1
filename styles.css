@@ -15,6 +15,10 @@ p.back {
     font-size: 20px;
 }
 
+p.enunciado {
+    font-size: 20px;
+}
+
 [class="ej1 button"] {
     display: flex;
     justify-self: center;
