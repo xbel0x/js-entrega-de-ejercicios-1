@@ -28,3 +28,33 @@ h1.title {
 [class="ej3 list"] li button {
     margin-left: 20px;
 }
+
+[class="ej5 container"] {
+    display: grid;
+    justify-self: center;
+    grid-template-areas: 
+    "number1 number1 number2 number2"
+    "suma resta multiplicacion division"
+    "resultado resultado resultado resultado";
+    gap: 10px;
+}
+
+[class="ej5 container"] #number1 {
+    grid-area: number1;
+    text-align: center;
+}
+
+[class="ej5 container"] #number2 {
+    grid-area: number2;
+    text-align: center;
+}
+
+[class="ej5 container"] #resultado {
+    grid-area: resultado;
+    justify-self: center;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px 10px;
+    width: 50px;
+    min-height: 25px;
+}
