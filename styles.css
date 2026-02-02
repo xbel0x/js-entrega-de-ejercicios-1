@@ -14,7 +14,7 @@ h1.title {
     padding: 5px 10px;
 }
 
-[class="ej2 container"], [class="ej3 container"], [class="ej6 container"] {
+[class="ej2 container"], [class="ej3 container"], [class="ej6 container"], [class="ej8 container"] {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,4 +61,10 @@ h1.title {
 
 [class="ej7 container"] {
     text-align: center;
+}
+
+[class="ej8 container"] #contador {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
 }
