@@ -58,3 +58,7 @@ h1.title {
     width: 50px;
     min-height: 25px;
 }
+
+[class="ej7 container"] {
+    text-align: center;
+}
