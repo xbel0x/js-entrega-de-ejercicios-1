@@ -8,15 +8,17 @@ document.addEventListener('DOMContentLoaded', () => {
         let elem = document.createElement('li')
         let del = document.createElement('button')
 
-        del.textContent = 'eliminar'
-        del.addEventListener('click', () => {
-            elem.remove()
-        })
-
-        elem.textContent = text
-        elem.append(del)
-        list.appendChild(elem)
-        textarea.value = ''
+        if (text != '') {
+            del.textContent = 'eliminar'
+            del.addEventListener('click', () => {
+                elem.remove()
+            })
+    
+            elem.textContent = text
+            elem.append(del)
+            list.appendChild(elem)
+            textarea.value = ''
+        }
 
     })
 })
